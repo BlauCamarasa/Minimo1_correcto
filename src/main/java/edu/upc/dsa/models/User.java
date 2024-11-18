@@ -2,6 +2,8 @@ package edu.upc.dsa.models;
 
 import edu.upc.dsa.util.RandomUtils;
 
+import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -73,6 +75,10 @@ public class User {
 
     public void setPuntosInteresusuario(List<PuntoInteres> puntosInteresusuario) {
         this.puntosInteresusuario = puntosInteresusuario;
+    }
+
+    public void AnadirPuntoInteresVisitado(PuntoInteres punto){
+        this.puntosInteresusuario.add(punto);
     }
 
     @Override

@@ -53,11 +53,7 @@ public class PuntoInteres {
     //Imprimir info
     @Override
     public String toString() {
-        return "PuntoInteres{" +
-                "coordHorizontal=" + coordHorizontal +
-                ", coordVertical=" + coordVertical +
-                ", tipo=" + tipo +
-                '}';
+        return "PuntoInteres{" + "coordHorizontal=" + coordHorizontal + ", coordVertical=" + coordVertical + ", tipo=" + tipo + '}';
     }
 
 }
